@@ -3,5 +3,6 @@ class navegador(object):
 		self.URL=URL
 		self.nombre=nombre
 		self.tabs=[]
-	def 
+	def tabss(self):
+		
 
