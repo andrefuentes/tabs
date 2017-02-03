@@ -3,15 +3,14 @@ class navegador(object):
 		self.version=version
 		self.nombre=nombre
 		self.tabs=[]
+		self.cerrar=False
 	def abrir(URL,nombre):
 		tab=(URL,snombre)
-		tab.append(tabs)
-	def cerrar(self):
-		cerrar=-1
-		self.tab.pop[cerrar]
+		tabs.append(tab)
+	def cerrar(self, i):
+		self.tabs.pop(i)
 	def cerrar_t (self,tab):
-		return self.tab=[]
-	def mostrar_tab(self,tab):
-		return self.tab
-	def guardar(self,tab):
-		
+		self.cerrar=True
+	def mostrar_tab(self,tabs):
+		return 
+	def guardar(self,tabs):
