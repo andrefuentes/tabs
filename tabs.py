@@ -3,3 +3,4 @@ class tabs(object):
 		self.URL=URL
 		self.nombre=nombre
 		self.tabs=[]
+		
