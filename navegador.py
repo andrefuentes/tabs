@@ -5,12 +5,13 @@ class navegador(object):
 		self.tabs=[]
 		self.cerrar=False
 	def abrir(URL,nombre):
-		tab=(URL,snombre)
+		tab=(URL,nombre)
 		tabs.append(tab)
 	def cerrar(self, i):
 		self.tabs.pop(i)
 	def cerrar_t (self,tab):
 		self.cerrar=True
 	def mostrar_tab(self,tabs):
-		return 
-	def guardar(self,tabs):
+		return "\n".join(tabs(i))
+	def guardar.txt(self,tabs):
+		archivo=open("")
