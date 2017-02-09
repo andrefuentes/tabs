@@ -15,4 +15,4 @@ class Navegador(object):
 		self.tabs.pop[tab_numero]
 	def cerrar_todos(self)
 		self.tabs=[]
-		self.tabs=[]
+		self.nombre=[]

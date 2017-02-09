@@ -4,4 +4,4 @@ class Tabs(object):
 		self.nombre=nombre
 		self.tabs=[]
 	def cambiar_URl(self,URL):
-		self.URl=[]	
+		tabs[]	

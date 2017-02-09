@@ -9,5 +9,12 @@ while opc != 6:
 		URL=int(input("ingrese Url"))
 	if opc==2:
 		Url=int(input("que URl desea cambiar "))
+		navegador.tab(nombre,URl)
+
 	if opc==3:
+
+	if opc==4
+
+	if opc==5
+		print (navegador.mostrar_tabs)
 
